@@ -25,6 +25,6 @@ public class LibraryItem {
 
     @Override
     public String toString() {
-        return "Item: " + this.title + " by " + this.author + "(" + this.year +")";
+        return "Item: " + this.title + " by " + this.author + "(" + this.year + ")";
     }
 }

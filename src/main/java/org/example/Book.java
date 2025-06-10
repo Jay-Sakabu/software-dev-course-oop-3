@@ -1,6 +1,6 @@
 package org.example;
 
-public class Book extends LibraryItem{
+public class Book extends LibraryItem {
     protected int pageCount;
 
     public Book(String title, String author, int year, int pageCount) {
@@ -17,7 +17,7 @@ public class Book extends LibraryItem{
         return "Book: " + this.title + " by " + this.author + " (" + this.year + ") - " + this.pageCount + " pages";
     }
 
-    public void readBook(){
+    public void readBook() {
         System.out.println("Reading " + this.title + " by " + this.author + "...\nDone!");
     }
 }
